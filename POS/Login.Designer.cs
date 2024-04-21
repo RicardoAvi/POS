@@ -35,18 +35,18 @@
             txt_usuario = new TextBox();
             txt_contra = new TextBox();
             panel1 = new Panel();
-            pictureBox1 = new PictureBox();
+            checkBox2 = new CheckBox();
+            checkBox1 = new CheckBox();
+            label1 = new Label();
+            panel5 = new Panel();
             panel2 = new Panel();
             panel3 = new Panel();
             panel4 = new Panel();
-            panel5 = new Panel();
-            label1 = new Label();
-            checkBox1 = new CheckBox();
-            checkBox2 = new CheckBox();
+            pictureBox1 = new PictureBox();
             panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panel2.SuspendLayout();
             panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // btn_ingresar
@@ -125,13 +125,43 @@
             panel1.TabIndex = 6;
             panel1.Paint += panel1_Paint;
             // 
-            // pictureBox1
+            // checkBox2
             // 
-            pictureBox1.Location = new Point(386, 62);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(237, 123);
-            pictureBox1.TabIndex = 6;
-            pictureBox1.TabStop = false;
+            checkBox2.AutoSize = true;
+            checkBox2.Location = new Point(530, 222);
+            checkBox2.Name = "checkBox2";
+            checkBox2.Size = new Size(79, 19);
+            checkBox2.TabIndex = 11;
+            checkBox2.Text = "Empleado";
+            checkBox2.UseVisualStyleBackColor = true;
+            // 
+            // checkBox1
+            // 
+            checkBox1.AutoSize = true;
+            checkBox1.Location = new Point(401, 222);
+            checkBox1.Name = "checkBox1";
+            checkBox1.Size = new Size(102, 19);
+            checkBox1.TabIndex = 10;
+            checkBox1.Text = "Administrador";
+            checkBox1.UseVisualStyleBackColor = true;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(451, 118);
+            label1.Name = "label1";
+            label1.Size = new Size(108, 15);
+            label1.TabIndex = 9;
+            label1.Text = "//Logo de Tienda//";
+            // 
+            // panel5
+            // 
+            panel5.BackColor = Color.CadetBlue;
+            panel5.Dock = DockStyle.Right;
+            panel5.Location = new Point(784, 0);
+            panel5.Name = "panel5";
+            panel5.Size = new Size(200, 561);
+            panel5.TabIndex = 8;
             // 
             // panel2
             // 
@@ -162,43 +192,13 @@
             panel4.Size = new Size(200, 561);
             panel4.TabIndex = 9;
             // 
-            // panel5
+            // pictureBox1
             // 
-            panel5.BackColor = Color.CadetBlue;
-            panel5.Dock = DockStyle.Right;
-            panel5.Location = new Point(784, 0);
-            panel5.Name = "panel5";
-            panel5.Size = new Size(200, 561);
-            panel5.TabIndex = 8;
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Location = new Point(451, 118);
-            label1.Name = "label1";
-            label1.Size = new Size(108, 15);
-            label1.TabIndex = 9;
-            label1.Text = "//Logo de Tienda//";
-            // 
-            // checkBox1
-            // 
-            checkBox1.AutoSize = true;
-            checkBox1.Location = new Point(401, 222);
-            checkBox1.Name = "checkBox1";
-            checkBox1.Size = new Size(102, 19);
-            checkBox1.TabIndex = 10;
-            checkBox1.Text = "Administrador";
-            checkBox1.UseVisualStyleBackColor = true;
-            // 
-            // checkBox2
-            // 
-            checkBox2.AutoSize = true;
-            checkBox2.Location = new Point(530, 222);
-            checkBox2.Name = "checkBox2";
-            checkBox2.Size = new Size(79, 19);
-            checkBox2.TabIndex = 11;
-            checkBox2.Text = "Empleado";
-            checkBox2.UseVisualStyleBackColor = true;
+            pictureBox1.Location = new Point(386, 62);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(237, 123);
+            pictureBox1.TabIndex = 6;
+            pictureBox1.TabStop = false;
             // 
             // Login
             // 
@@ -212,9 +212,9 @@
             Text = "Login";
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             panel2.ResumeLayout(false);
             panel3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
         }
 

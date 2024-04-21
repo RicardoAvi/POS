@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace POS
 {
-    public partial class NuevoProveedor : Form
+    public partial class NuevoProducto : Form
     {
-        public NuevoProveedor()
+        public NuevoProducto()
         {
             InitializeComponent();
-        }
-
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
         }
     }
 }

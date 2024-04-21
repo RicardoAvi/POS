@@ -63,13 +63,13 @@
             panel1.Dock = DockStyle.Top;
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(800, 97);
+            panel1.Size = new Size(984, 97);
             panel1.TabIndex = 0;
             // 
             // btn_regresarPC
             // 
             btn_regresarPC.BackColor = Color.FromArgb(224, 224, 224);
-            btn_regresarPC.Location = new Point(579, 52);
+            btn_regresarPC.Location = new Point(753, 49);
             btn_regresarPC.Name = "btn_regresarPC";
             btn_regresarPC.Size = new Size(115, 33);
             btn_regresarPC.TabIndex = 5;
@@ -78,7 +78,7 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.Location = new Point(700, 0);
+            pictureBox1.Location = new Point(887, 0);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(100, 97);
             pictureBox1.TabIndex = 4;
@@ -87,7 +87,7 @@
             // btn_eliminarProveedor
             // 
             btn_eliminarProveedor.BackColor = Color.FromArgb(224, 224, 224);
-            btn_eliminarProveedor.Location = new Point(301, 52);
+            btn_eliminarProveedor.Location = new Point(408, 49);
             btn_eliminarProveedor.Name = "btn_eliminarProveedor";
             btn_eliminarProveedor.Size = new Size(115, 33);
             btn_eliminarProveedor.TabIndex = 3;
@@ -98,7 +98,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(292, 9);
+            label1.Location = new Point(399, 6);
             label1.Name = "label1";
             label1.Size = new Size(134, 30);
             label1.TabIndex = 1;
@@ -107,7 +107,7 @@
             // btn_historialCompras
             // 
             btn_historialCompras.BackColor = Color.FromArgb(224, 224, 224);
-            btn_historialCompras.Location = new Point(433, 52);
+            btn_historialCompras.Location = new Point(572, 49);
             btn_historialCompras.Name = "btn_historialCompras";
             btn_historialCompras.Size = new Size(133, 33);
             btn_historialCompras.TabIndex = 2;
@@ -117,7 +117,7 @@
             // btn_nuevoProveedor
             // 
             btn_nuevoProveedor.BackColor = Color.FromArgb(224, 224, 224);
-            btn_nuevoProveedor.Location = new Point(12, 52);
+            btn_nuevoProveedor.Location = new Point(20, 49);
             btn_nuevoProveedor.Name = "btn_nuevoProveedor";
             btn_nuevoProveedor.Size = new Size(115, 33);
             btn_nuevoProveedor.TabIndex = 1;
@@ -135,7 +135,7 @@
             tabControl1.Location = new Point(16, 155);
             tabControl1.Name = "tabControl1";
             tabControl1.SelectedIndex = 0;
-            tabControl1.Size = new Size(772, 283);
+            tabControl1.Size = new Size(943, 377);
             tabControl1.TabIndex = 1;
             // 
             // tabla_empresa
@@ -143,7 +143,7 @@
             tabla_empresa.Location = new Point(4, 24);
             tabla_empresa.Name = "tabla_empresa";
             tabla_empresa.Padding = new Padding(3);
-            tabla_empresa.Size = new Size(764, 255);
+            tabla_empresa.Size = new Size(935, 349);
             tabla_empresa.TabIndex = 1;
             tabla_empresa.Text = "Empresa";
             tabla_empresa.UseVisualStyleBackColor = true;
@@ -151,7 +151,7 @@
             // btn_editarProveedor
             // 
             btn_editarProveedor.BackColor = Color.FromArgb(224, 224, 224);
-            btn_editarProveedor.Location = new Point(147, 52);
+            btn_editarProveedor.Location = new Point(208, 49);
             btn_editarProveedor.Name = "btn_editarProveedor";
             btn_editarProveedor.Size = new Size(133, 33);
             btn_editarProveedor.TabIndex = 6;
@@ -162,7 +162,7 @@
             // 
             tabla_representante.Location = new Point(4, 24);
             tabla_representante.Name = "tabla_representante";
-            tabla_representante.Size = new Size(764, 223);
+            tabla_representante.Size = new Size(935, 349);
             tabla_representante.TabIndex = 2;
             tabla_representante.Text = "Representante";
             tabla_representante.UseVisualStyleBackColor = true;
@@ -171,7 +171,7 @@
             // 
             tabla_telefono.Location = new Point(4, 24);
             tabla_telefono.Name = "tabla_telefono";
-            tabla_telefono.Size = new Size(764, 223);
+            tabla_telefono.Size = new Size(935, 349);
             tabla_telefono.TabIndex = 3;
             tabla_telefono.Text = "telefono";
             tabla_telefono.UseVisualStyleBackColor = true;
@@ -180,7 +180,7 @@
             // 
             tabla_correo.Location = new Point(4, 24);
             tabla_correo.Name = "tabla_correo";
-            tabla_correo.Size = new Size(764, 223);
+            tabla_correo.Size = new Size(935, 349);
             tabla_correo.TabIndex = 4;
             tabla_correo.Text = "Correo";
             tabla_correo.UseVisualStyleBackColor = true;
@@ -189,7 +189,7 @@
             // 
             tabla_pagina.Location = new Point(4, 24);
             tabla_pagina.Name = "tabla_pagina";
-            tabla_pagina.Size = new Size(764, 223);
+            tabla_pagina.Size = new Size(935, 349);
             tabla_pagina.TabIndex = 5;
             tabla_pagina.Text = "Pagina Web";
             tabla_pagina.UseVisualStyleBackColor = true;
@@ -198,7 +198,7 @@
             // 
             tabla_comentarios.Location = new Point(4, 24);
             tabla_comentarios.Name = "tabla_comentarios";
-            tabla_comentarios.Size = new Size(764, 223);
+            tabla_comentarios.Size = new Size(935, 349);
             tabla_comentarios.TabIndex = 6;
             tabla_comentarios.Text = "Comentarios";
             tabla_comentarios.UseVisualStyleBackColor = true;
@@ -206,7 +206,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(737, 40);
+            label2.Location = new Point(912, 39);
             label2.Name = "label2";
             label2.Size = new Size(47, 15);
             label2.TabIndex = 7;
@@ -217,7 +217,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(0, 192, 192);
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(984, 561);
             Controls.Add(tabControl1);
             Controls.Add(panel1);
             Name = "Proveedores";
