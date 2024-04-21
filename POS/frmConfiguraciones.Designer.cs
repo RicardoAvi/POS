@@ -44,11 +44,11 @@
             proovedoresToolStripMenuItem = new ToolStripMenuItem();
             inventarioToolStripMenuItem = new ToolStripMenuItem();
             ventasToolStripMenuItem = new ToolStripMenuItem();
+            usuariosToolStripMenuItem = new ToolStripMenuItem();
+            clientesToolStripMenuItem = new ToolStripMenuItem();
             txt_guardar = new Button();
             txt_eliminar = new Button();
             txt_actualizar = new Button();
-            usuariosToolStripMenuItem = new ToolStripMenuItem();
-            clientesToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -163,8 +163,9 @@
             // proovedoresToolStripMenuItem
             // 
             proovedoresToolStripMenuItem.Name = "proovedoresToolStripMenuItem";
-            proovedoresToolStripMenuItem.Size = new Size(106, 24);
-            proovedoresToolStripMenuItem.Text = "Proovedores";
+            proovedoresToolStripMenuItem.Size = new Size(105, 24);
+            proovedoresToolStripMenuItem.Text = "Proveedores";
+            proovedoresToolStripMenuItem.Click += proovedoresToolStripMenuItem_Click;
             // 
             // inventarioToolStripMenuItem
             // 
@@ -177,6 +178,18 @@
             ventasToolStripMenuItem.Name = "ventasToolStripMenuItem";
             ventasToolStripMenuItem.Size = new Size(66, 24);
             ventasToolStripMenuItem.Text = "Ventas";
+            // 
+            // usuariosToolStripMenuItem
+            // 
+            usuariosToolStripMenuItem.Name = "usuariosToolStripMenuItem";
+            usuariosToolStripMenuItem.Size = new Size(79, 24);
+            usuariosToolStripMenuItem.Text = "Usuarios";
+            // 
+            // clientesToolStripMenuItem
+            // 
+            clientesToolStripMenuItem.Name = "clientesToolStripMenuItem";
+            clientesToolStripMenuItem.Size = new Size(75, 24);
+            clientesToolStripMenuItem.Text = "Clientes";
             // 
             // txt_guardar
             // 
@@ -206,18 +219,6 @@
             txt_actualizar.TabIndex = 13;
             txt_actualizar.Text = "Actualizar";
             txt_actualizar.UseVisualStyleBackColor = true;
-            // 
-            // usuariosToolStripMenuItem
-            // 
-            usuariosToolStripMenuItem.Name = "usuariosToolStripMenuItem";
-            usuariosToolStripMenuItem.Size = new Size(79, 24);
-            usuariosToolStripMenuItem.Text = "Usuarios";
-            // 
-            // clientesToolStripMenuItem
-            // 
-            clientesToolStripMenuItem.Name = "clientesToolStripMenuItem";
-            clientesToolStripMenuItem.Size = new Size(75, 24);
-            clientesToolStripMenuItem.Text = "Clientes";
             // 
             // frmConfiguraciones
             // 
