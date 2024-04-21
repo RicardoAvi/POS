@@ -79,5 +79,15 @@ namespace POS.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap WhatsApp_Image_2024_04_16_at_3_14_40_PM {
+            get {
+                object obj = ResourceManager.GetObject("WhatsApp Image 2024-04-16 at 3.14.40 PM", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
