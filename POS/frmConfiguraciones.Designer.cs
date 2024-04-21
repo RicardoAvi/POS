@@ -49,6 +49,7 @@
             txt_guardar = new Button();
             txt_eliminar = new Button();
             txt_actualizar = new Button();
+            rHToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -187,6 +188,7 @@
             // 
             // clientesToolStripMenuItem
             // 
+            clientesToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { rHToolStripMenuItem });
             clientesToolStripMenuItem.Name = "clientesToolStripMenuItem";
             clientesToolStripMenuItem.Size = new Size(75, 24);
             clientesToolStripMenuItem.Text = "Clientes";
@@ -219,6 +221,12 @@
             txt_actualizar.TabIndex = 13;
             txt_actualizar.Text = "Actualizar";
             txt_actualizar.UseVisualStyleBackColor = true;
+            // 
+            // rHToolStripMenuItem
+            // 
+            rHToolStripMenuItem.Name = "rHToolStripMenuItem";
+            rHToolStripMenuItem.Size = new Size(224, 26);
+            rHToolStripMenuItem.Text = "RH";
             // 
             // frmConfiguraciones
             // 
@@ -274,5 +282,6 @@
         private ToolStripMenuItem inicioToolStripMenuItem;
         private ToolStripMenuItem usuariosToolStripMenuItem;
         private ToolStripMenuItem clientesToolStripMenuItem;
+        private ToolStripMenuItem rHToolStripMenuItem;
     }
 }
