@@ -43,6 +43,7 @@
             txt_direccion = new TextBox();
             btn_agregar = new Button();
             btn_eliminar = new Button();
+            label6 = new Label();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)picturebox_prueba).BeginInit();
             SuspendLayout();
@@ -183,12 +184,22 @@
             btn_eliminar.Text = "Eliminar";
             btn_eliminar.UseVisualStyleBackColor = true;
             // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Location = new Point(54, 596);
+            label6.Name = "label6";
+            label6.Size = new Size(83, 20);
+            label6.TabIndex = 13;
+            label6.Text = "Contraseña";
+            // 
             // frm_catusuarios
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ButtonFace;
             ClientSize = new Size(985, 668);
+            Controls.Add(label6);
             Controls.Add(btn_eliminar);
             Controls.Add(btn_agregar);
             Controls.Add(txt_direccion);
@@ -230,5 +241,6 @@
         private TextBox txt_direccion;
         private Button btn_agregar;
         private Button btn_eliminar;
+        private Label label6;
     }
 }
