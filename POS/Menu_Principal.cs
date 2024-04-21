@@ -32,5 +32,9 @@ namespace POS
 
         }
 
+        private void Menu_Principal_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

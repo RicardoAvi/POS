@@ -57,9 +57,8 @@
             panelMenu.Controls.Add(panelLogo);
             panelMenu.Dock = DockStyle.Left;
             panelMenu.Location = new Point(0, 0);
-            panelMenu.Margin = new Padding(3, 4, 3, 4);
             panelMenu.Name = "panelMenu";
-            panelMenu.Size = new Size(251, 748);
+            panelMenu.Size = new Size(220, 561);
             panelMenu.TabIndex = 0;
             // 
             // btn_ajuste
@@ -67,10 +66,9 @@
             btn_ajuste.Dock = DockStyle.Top;
             btn_ajuste.FlatStyle = FlatStyle.Flat;
             btn_ajuste.ForeColor = Color.White;
-            btn_ajuste.Location = new Point(0, 431);
-            btn_ajuste.Margin = new Padding(3, 4, 3, 4);
+            btn_ajuste.Location = new Point(0, 323);
             btn_ajuste.Name = "btn_ajuste";
-            btn_ajuste.Size = new Size(251, 80);
+            btn_ajuste.Size = new Size(220, 60);
             btn_ajuste.TabIndex = 5;
             btn_ajuste.Text = "Ajustes";
             btn_ajuste.UseVisualStyleBackColor = true;
@@ -80,10 +78,9 @@
             btn_notificacion.Dock = DockStyle.Top;
             btn_notificacion.FlatStyle = FlatStyle.Flat;
             btn_notificacion.ForeColor = Color.White;
-            btn_notificacion.Location = new Point(0, 351);
-            btn_notificacion.Margin = new Padding(3, 4, 3, 4);
+            btn_notificacion.Location = new Point(0, 263);
             btn_notificacion.Name = "btn_notificacion";
-            btn_notificacion.Size = new Size(251, 80);
+            btn_notificacion.Size = new Size(220, 60);
             btn_notificacion.TabIndex = 4;
             btn_notificacion.Text = "Notificacion";
             btn_notificacion.UseVisualStyleBackColor = true;
@@ -93,10 +90,9 @@
             btn_orden.Dock = DockStyle.Top;
             btn_orden.FlatStyle = FlatStyle.Flat;
             btn_orden.ForeColor = Color.White;
-            btn_orden.Location = new Point(0, 271);
-            btn_orden.Margin = new Padding(3, 4, 3, 4);
+            btn_orden.Location = new Point(0, 203);
             btn_orden.Name = "btn_orden";
-            btn_orden.Size = new Size(251, 80);
+            btn_orden.Size = new Size(220, 60);
             btn_orden.TabIndex = 3;
             btn_orden.Text = "Orden";
             btn_orden.UseVisualStyleBackColor = true;
@@ -106,10 +102,9 @@
             btn_alnacen.Dock = DockStyle.Top;
             btn_alnacen.FlatStyle = FlatStyle.Flat;
             btn_alnacen.ForeColor = Color.White;
-            btn_alnacen.Location = new Point(0, 191);
-            btn_alnacen.Margin = new Padding(3, 4, 3, 4);
+            btn_alnacen.Location = new Point(0, 143);
             btn_alnacen.Name = "btn_alnacen";
-            btn_alnacen.Size = new Size(251, 80);
+            btn_alnacen.Size = new Size(220, 60);
             btn_alnacen.TabIndex = 2;
             btn_alnacen.Text = "Almacén";
             btn_alnacen.UseVisualStyleBackColor = true;
@@ -120,10 +115,9 @@
             btn_perfil.Dock = DockStyle.Top;
             btn_perfil.FlatStyle = FlatStyle.Flat;
             btn_perfil.ForeColor = Color.White;
-            btn_perfil.Location = new Point(0, 111);
-            btn_perfil.Margin = new Padding(3, 4, 3, 4);
+            btn_perfil.Location = new Point(0, 83);
             btn_perfil.Name = "btn_perfil";
-            btn_perfil.Size = new Size(251, 80);
+            btn_perfil.Size = new Size(220, 60);
             btn_perfil.TabIndex = 1;
             btn_perfil.Text = "Perfil";
             btn_perfil.UseVisualStyleBackColor = true;
@@ -134,18 +128,17 @@
             panelLogo.Controls.Add(lbl_titulo);
             panelLogo.Dock = DockStyle.Top;
             panelLogo.Location = new Point(0, 0);
-            panelLogo.Margin = new Padding(3, 4, 3, 4);
             panelLogo.Name = "panelLogo";
-            panelLogo.Size = new Size(251, 111);
+            panelLogo.Size = new Size(220, 83);
             panelLogo.TabIndex = 1;
             // 
             // lbl_titulo
             // 
             lbl_titulo.AutoSize = true;
             lbl_titulo.Font = new Font("Segoe UI Black", 18F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            lbl_titulo.Location = new Point(3, 29);
+            lbl_titulo.Location = new Point(3, 22);
             lbl_titulo.Name = "lbl_titulo";
-            lbl_titulo.Size = new Size(275, 41);
+            lbl_titulo.Size = new Size(219, 32);
             lbl_titulo.TabIndex = 2;
             lbl_titulo.Text = "HUMBLE clothing";
             // 
@@ -154,10 +147,9 @@
             panelTitulo.BackColor = Color.FromArgb(64, 64, 64);
             panelTitulo.Controls.Add(lbl_Inicio);
             panelTitulo.Dock = DockStyle.Top;
-            panelTitulo.Location = new Point(251, 0);
-            panelTitulo.Margin = new Padding(3, 4, 3, 4);
+            panelTitulo.Location = new Point(220, 0);
             panelTitulo.Name = "panelTitulo";
-            panelTitulo.Size = new Size(874, 111);
+            panelTitulo.Size = new Size(764, 83);
             panelTitulo.TabIndex = 1;
             // 
             // lbl_Inicio
@@ -165,9 +157,9 @@
             lbl_Inicio.AutoSize = true;
             lbl_Inicio.BackColor = Color.White;
             lbl_Inicio.Font = new Font("Sitka Banner", 33.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lbl_Inicio.Location = new Point(31, 12);
+            lbl_Inicio.Location = new Point(27, 9);
             lbl_Inicio.Name = "lbl_Inicio";
-            lbl_Inicio.Size = new Size(915, 82);
+            lbl_Inicio.Size = new Size(714, 65);
             lbl_Inicio.TabIndex = 0;
             lbl_Inicio.Text = "--------------------INICIO--------------------";
             lbl_Inicio.TextAlign = ContentAlignment.TopCenter;
@@ -175,35 +167,34 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.Location = new Point(416, 191);
-            pictureBox1.Margin = new Padding(3, 4, 3, 4);
+            pictureBox1.Location = new Point(364, 143);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(527, 445);
+            pictureBox1.Size = new Size(461, 334);
             pictureBox1.TabIndex = 2;
             pictureBox1.TabStop = false;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(621, 381);
+            label1.Location = new Point(543, 286);
             label1.Name = "label1";
-            label1.Size = new Size(137, 20);
+            label1.Size = new Size(108, 15);
             label1.TabIndex = 3;
             label1.Text = "//Logo de Tienda//";
             // 
             // Menu_Principal
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             AutoSize = true;
-            ClientSize = new Size(1125, 748);
+            ClientSize = new Size(984, 561);
             Controls.Add(label1);
             Controls.Add(pictureBox1);
             Controls.Add(panelTitulo);
             Controls.Add(panelMenu);
-            Margin = new Padding(3, 4, 3, 4);
             Name = "Menu_Principal";
             Text = "Menú Principal";
+            Load += Menu_Principal_Load;
             panelMenu.ResumeLayout(false);
             panelLogo.ResumeLayout(false);
             panelLogo.PerformLayout();
