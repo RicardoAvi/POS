@@ -48,6 +48,8 @@
             label11 = new Label();
             txt_rfc = new TextBox();
             label12 = new Label();
+            btn_agregar = new Button();
+            btn_eliminar = new Button();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
             SuspendLayout();
@@ -241,11 +243,31 @@
             label12.Size = new Size(153, 121);
             label12.TabIndex = 14;
             // 
+            // btn_agregar
+            // 
+            btn_agregar.Location = new Point(523, 522);
+            btn_agregar.Name = "btn_agregar";
+            btn_agregar.Size = new Size(147, 64);
+            btn_agregar.TabIndex = 15;
+            btn_agregar.Text = "Agregar";
+            btn_agregar.UseVisualStyleBackColor = true;
+            // 
+            // btn_eliminar
+            // 
+            btn_eliminar.Location = new Point(732, 522);
+            btn_eliminar.Name = "btn_eliminar";
+            btn_eliminar.Size = new Size(147, 64);
+            btn_eliminar.TabIndex = 16;
+            btn_eliminar.Text = "Eliminar";
+            btn_eliminar.UseVisualStyleBackColor = true;
+            // 
             // frm_clientes
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(917, 606);
+            Controls.Add(btn_eliminar);
+            Controls.Add(btn_agregar);
             Controls.Add(label12);
             Controls.Add(txt_rfc);
             Controls.Add(label11);
@@ -294,5 +316,7 @@
         private Label label11;
         private TextBox txt_rfc;
         private Label label12;
+        private Button btn_agregar;
+        private Button btn_eliminar;
     }
 }
