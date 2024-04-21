@@ -39,118 +39,132 @@
             txt_correo = new TextBox();
             txt_telefono = new TextBox();
             menuStrip1 = new MenuStrip();
+            inicioToolStripMenuItem = new ToolStripMenuItem();
             productosToolStripMenuItem = new ToolStripMenuItem();
+            proovedoresToolStripMenuItem = new ToolStripMenuItem();
             inventarioToolStripMenuItem = new ToolStripMenuItem();
             ventasToolStripMenuItem = new ToolStripMenuItem();
-            button1 = new Button();
-            button2 = new Button();
-            button3 = new Button();
-            proovedoresToolStripMenuItem = new ToolStripMenuItem();
-            inicioToolStripMenuItem = new ToolStripMenuItem();
+            txt_guardar = new Button();
+            txt_eliminar = new Button();
+            txt_actualizar = new Button();
+            usuariosToolStripMenuItem = new ToolStripMenuItem();
+            clientesToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.Location = new Point(12, 105);
+            label1.Font = new Font("Microsoft YaHei UI", 12F);
+            label1.Location = new Point(10, 102);
             label1.Name = "label1";
-            label1.Size = new Size(78, 25);
+            label1.Size = new Size(107, 27);
             label1.TabIndex = 0;
-            label1.Text = "Nombre";
+            label1.Text = "* Nombre";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label2.Location = new Point(12, 224);
+            label2.Font = new Font("Microsoft YaHei UI", 12F);
+            label2.Location = new Point(10, 236);
             label2.Name = "label2";
-            label2.Size = new Size(81, 23);
+            label2.Size = new Size(109, 27);
             label2.TabIndex = 1;
-            label2.Text = "Direccion";
+            label2.Text = "* Empresa";
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Font = new Font("Segoe UI", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label3.Location = new Point(12, 279);
+            label3.Font = new Font("Microsoft YaHei UI", 12F);
+            label3.Location = new Point(10, 304);
             label3.Name = "label3";
-            label3.Size = new Size(62, 23);
+            label3.Size = new Size(93, 27);
             label3.TabIndex = 2;
-            label3.Text = "Correo";
+            label3.Text = "* Correo";
             label3.Click += label3_Click;
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Font = new Font("Segoe UI", 10.8F);
-            label4.Location = new Point(9, 163);
+            label4.Font = new Font("Microsoft YaHei UI", 12F);
+            label4.Location = new Point(10, 169);
             label4.Name = "label4";
-            label4.Size = new Size(87, 25);
+            label4.Size = new Size(100, 27);
             label4.TabIndex = 3;
-            label4.Text = "Domicilio";
+            label4.Text = "* Usuario";
             // 
             // label5
             // 
             label5.AutoSize = true;
-            label5.Font = new Font("Segoe UI", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label5.Location = new Point(12, 364);
+            label5.Font = new Font("Microsoft YaHei UI", 12F);
+            label5.Location = new Point(10, 360);
             label5.Name = "label5";
-            label5.Size = new Size(74, 23);
+            label5.Size = new Size(110, 27);
             label5.TabIndex = 4;
-            label5.Text = "Telefono";
+            label5.Text = "* Telefono";
             // 
             // txt_nombre
             // 
-            txt_nombre.Location = new Point(145, 106);
+            txt_nombre.Location = new Point(194, 102);
             txt_nombre.Name = "txt_nombre";
-            txt_nombre.Size = new Size(248, 27);
+            txt_nombre.Size = new Size(324, 27);
             txt_nombre.TabIndex = 5;
             // 
             // txt_domicilio
             // 
-            txt_domicilio.Location = new Point(145, 164);
+            txt_domicilio.Location = new Point(194, 160);
             txt_domicilio.Name = "txt_domicilio";
-            txt_domicilio.Size = new Size(248, 27);
+            txt_domicilio.Size = new Size(324, 27);
             txt_domicilio.TabIndex = 6;
             // 
             // txt_direccion
             // 
-            txt_direccion.Location = new Point(145, 220);
+            txt_direccion.Location = new Point(194, 216);
             txt_direccion.Name = "txt_direccion";
-            txt_direccion.Size = new Size(248, 27);
+            txt_direccion.Size = new Size(324, 27);
             txt_direccion.TabIndex = 7;
             // 
             // txt_correo
             // 
-            txt_correo.Location = new Point(145, 296);
+            txt_correo.Location = new Point(194, 292);
             txt_correo.Name = "txt_correo";
-            txt_correo.Size = new Size(248, 27);
+            txt_correo.Size = new Size(324, 27);
             txt_correo.TabIndex = 8;
             // 
             // txt_telefono
             // 
-            txt_telefono.Location = new Point(145, 364);
+            txt_telefono.Location = new Point(194, 360);
             txt_telefono.Name = "txt_telefono";
-            txt_telefono.Size = new Size(248, 27);
+            txt_telefono.Size = new Size(324, 27);
             txt_telefono.TabIndex = 9;
             // 
             // menuStrip1
             // 
             menuStrip1.ImageScalingSize = new Size(20, 20);
-            menuStrip1.Items.AddRange(new ToolStripItem[] { inicioToolStripMenuItem, productosToolStripMenuItem, proovedoresToolStripMenuItem, inventarioToolStripMenuItem, ventasToolStripMenuItem });
+            menuStrip1.Items.AddRange(new ToolStripItem[] { inicioToolStripMenuItem, productosToolStripMenuItem, proovedoresToolStripMenuItem, inventarioToolStripMenuItem, ventasToolStripMenuItem, usuariosToolStripMenuItem, clientesToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
-            menuStrip1.Size = new Size(901, 28);
+            menuStrip1.Size = new Size(787, 28);
             menuStrip1.TabIndex = 10;
             menuStrip1.Text = "menuStrip1";
+            // 
+            // inicioToolStripMenuItem
+            // 
+            inicioToolStripMenuItem.Name = "inicioToolStripMenuItem";
+            inicioToolStripMenuItem.Size = new Size(59, 24);
+            inicioToolStripMenuItem.Text = "Inicio";
             // 
             // productosToolStripMenuItem
             // 
             productosToolStripMenuItem.Name = "productosToolStripMenuItem";
             productosToolStripMenuItem.Size = new Size(89, 24);
             productosToolStripMenuItem.Text = "Productos";
+            // 
+            // proovedoresToolStripMenuItem
+            // 
+            proovedoresToolStripMenuItem.Name = "proovedoresToolStripMenuItem";
+            proovedoresToolStripMenuItem.Size = new Size(106, 24);
+            proovedoresToolStripMenuItem.Text = "Proovedores";
             // 
             // inventarioToolStripMenuItem
             // 
@@ -164,46 +178,46 @@
             ventasToolStripMenuItem.Size = new Size(66, 24);
             ventasToolStripMenuItem.Text = "Ventas";
             // 
-            // button1
+            // txt_guardar
             // 
-            button1.ImageAlign = ContentAlignment.MiddleRight;
-            button1.Location = new Point(222, 571);
-            button1.Name = "button1";
-            button1.Size = new Size(126, 59);
-            button1.TabIndex = 11;
-            button1.Text = "Guardar";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
+            txt_guardar.ImageAlign = ContentAlignment.MiddleRight;
+            txt_guardar.Location = new Point(194, 483);
+            txt_guardar.Name = "txt_guardar";
+            txt_guardar.Size = new Size(149, 74);
+            txt_guardar.TabIndex = 11;
+            txt_guardar.Text = "Guardar";
+            txt_guardar.UseVisualStyleBackColor = true;
+            txt_guardar.Click += button1_Click;
             // 
-            // button2
+            // txt_eliminar
             // 
-            button2.Location = new Point(648, 571);
-            button2.Name = "button2";
-            button2.Size = new Size(139, 59);
-            button2.TabIndex = 12;
-            button2.Text = "Eliminar";
-            button2.UseVisualStyleBackColor = true;
+            txt_eliminar.Location = new Point(578, 483);
+            txt_eliminar.Name = "txt_eliminar";
+            txt_eliminar.Size = new Size(161, 74);
+            txt_eliminar.TabIndex = 12;
+            txt_eliminar.Text = "Eliminar";
+            txt_eliminar.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // txt_actualizar
             // 
-            button3.Location = new Point(448, 571);
-            button3.Name = "button3";
-            button3.Size = new Size(126, 59);
-            button3.TabIndex = 13;
-            button3.Text = "Actualizar";
-            button3.UseVisualStyleBackColor = true;
+            txt_actualizar.Location = new Point(397, 483);
+            txt_actualizar.Name = "txt_actualizar";
+            txt_actualizar.Size = new Size(141, 74);
+            txt_actualizar.TabIndex = 13;
+            txt_actualizar.Text = "Actualizar";
+            txt_actualizar.UseVisualStyleBackColor = true;
             // 
-            // proovedoresToolStripMenuItem
+            // usuariosToolStripMenuItem
             // 
-            proovedoresToolStripMenuItem.Name = "proovedoresToolStripMenuItem";
-            proovedoresToolStripMenuItem.Size = new Size(106, 24);
-            proovedoresToolStripMenuItem.Text = "Proovedores";
+            usuariosToolStripMenuItem.Name = "usuariosToolStripMenuItem";
+            usuariosToolStripMenuItem.Size = new Size(79, 24);
+            usuariosToolStripMenuItem.Text = "Usuarios";
             // 
-            // inicioToolStripMenuItem
+            // clientesToolStripMenuItem
             // 
-            inicioToolStripMenuItem.Name = "inicioToolStripMenuItem";
-            inicioToolStripMenuItem.Size = new Size(59, 24);
-            inicioToolStripMenuItem.Text = "Inicio";
+            clientesToolStripMenuItem.Name = "clientesToolStripMenuItem";
+            clientesToolStripMenuItem.Size = new Size(75, 24);
+            clientesToolStripMenuItem.Text = "Clientes";
             // 
             // frmConfiguraciones
             // 
@@ -211,10 +225,10 @@
             AutoScaleMode = AutoScaleMode.Font;
             AutoSize = true;
             BackColor = SystemColors.ActiveCaption;
-            ClientSize = new Size(901, 651);
-            Controls.Add(button3);
-            Controls.Add(button2);
-            Controls.Add(button1);
+            ClientSize = new Size(787, 583);
+            Controls.Add(txt_actualizar);
+            Controls.Add(txt_eliminar);
+            Controls.Add(txt_guardar);
             Controls.Add(txt_telefono);
             Controls.Add(txt_correo);
             Controls.Add(txt_direccion);
@@ -252,10 +266,12 @@
         private ToolStripMenuItem productosToolStripMenuItem;
         private ToolStripMenuItem inventarioToolStripMenuItem;
         private ToolStripMenuItem ventasToolStripMenuItem;
-        private Button button1;
-        private Button button2;
-        private Button button3;
+        private Button txt_guardar;
+        private Button txt_eliminar;
+        private Button txt_actualizar;
         private ToolStripMenuItem proovedoresToolStripMenuItem;
         private ToolStripMenuItem inicioToolStripMenuItem;
+        private ToolStripMenuItem usuariosToolStripMenuItem;
+        private ToolStripMenuItem clientesToolStripMenuItem;
     }
 }
