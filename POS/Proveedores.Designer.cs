@@ -29,21 +29,21 @@
         private void InitializeComponent()
         {
             panel1 = new Panel();
+            label2 = new Label();
+            btn_editarProveedor = new Button();
             btn_regresarPC = new Button();
+            btn_historialCompras = new Button();
             pictureBox1 = new PictureBox();
             btn_eliminarProveedor = new Button();
             label1 = new Label();
-            btn_historialCompras = new Button();
             btn_nuevoProveedor = new Button();
             tabControl1 = new TabControl();
             tabla_empresa = new TabPage();
-            btn_editarProveedor = new Button();
             tabla_representante = new TabPage();
             tabla_telefono = new TabPage();
             tabla_correo = new TabPage();
             tabla_pagina = new TabPage();
             tabla_comentarios = new TabPage();
-            label2 = new Label();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             tabControl1.SuspendLayout();
@@ -66,6 +66,25 @@
             panel1.Size = new Size(984, 97);
             panel1.TabIndex = 0;
             // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(912, 39);
+            label2.Name = "label2";
+            label2.Size = new Size(47, 15);
+            label2.TabIndex = 7;
+            label2.Text = "imagen";
+            // 
+            // btn_editarProveedor
+            // 
+            btn_editarProveedor.BackColor = Color.FromArgb(224, 224, 224);
+            btn_editarProveedor.Location = new Point(208, 49);
+            btn_editarProveedor.Name = "btn_editarProveedor";
+            btn_editarProveedor.Size = new Size(133, 33);
+            btn_editarProveedor.TabIndex = 6;
+            btn_editarProveedor.Text = "Editar";
+            btn_editarProveedor.UseVisualStyleBackColor = false;
+            // 
             // btn_regresarPC
             // 
             btn_regresarPC.BackColor = Color.FromArgb(224, 224, 224);
@@ -75,6 +94,16 @@
             btn_regresarPC.TabIndex = 5;
             btn_regresarPC.Text = "Regresar";
             btn_regresarPC.UseVisualStyleBackColor = false;
+            // 
+            // btn_historialCompras
+            // 
+            btn_historialCompras.BackColor = Color.FromArgb(224, 224, 224);
+            btn_historialCompras.Location = new Point(572, 49);
+            btn_historialCompras.Name = "btn_historialCompras";
+            btn_historialCompras.Size = new Size(133, 33);
+            btn_historialCompras.TabIndex = 2;
+            btn_historialCompras.Text = "Historial de compras";
+            btn_historialCompras.UseVisualStyleBackColor = false;
             // 
             // pictureBox1
             // 
@@ -103,16 +132,6 @@
             label1.Size = new Size(134, 30);
             label1.TabIndex = 1;
             label1.Text = "Proveedores";
-            // 
-            // btn_historialCompras
-            // 
-            btn_historialCompras.BackColor = Color.FromArgb(224, 224, 224);
-            btn_historialCompras.Location = new Point(572, 49);
-            btn_historialCompras.Name = "btn_historialCompras";
-            btn_historialCompras.Size = new Size(133, 33);
-            btn_historialCompras.TabIndex = 2;
-            btn_historialCompras.Text = "Historial de compras";
-            btn_historialCompras.UseVisualStyleBackColor = false;
             // 
             // btn_nuevoProveedor
             // 
@@ -148,16 +167,6 @@
             tabla_empresa.Text = "Empresa";
             tabla_empresa.UseVisualStyleBackColor = true;
             // 
-            // btn_editarProveedor
-            // 
-            btn_editarProveedor.BackColor = Color.FromArgb(224, 224, 224);
-            btn_editarProveedor.Location = new Point(208, 49);
-            btn_editarProveedor.Name = "btn_editarProveedor";
-            btn_editarProveedor.Size = new Size(133, 33);
-            btn_editarProveedor.TabIndex = 6;
-            btn_editarProveedor.Text = "Editar";
-            btn_editarProveedor.UseVisualStyleBackColor = false;
-            // 
             // tabla_representante
             // 
             tabla_representante.Location = new Point(4, 24);
@@ -173,7 +182,7 @@
             tabla_telefono.Name = "tabla_telefono";
             tabla_telefono.Size = new Size(935, 349);
             tabla_telefono.TabIndex = 3;
-            tabla_telefono.Text = "telefono";
+            tabla_telefono.Text = "Telefono";
             tabla_telefono.UseVisualStyleBackColor = true;
             // 
             // tabla_correo
@@ -202,15 +211,6 @@
             tabla_comentarios.TabIndex = 6;
             tabla_comentarios.Text = "Comentarios";
             tabla_comentarios.UseVisualStyleBackColor = true;
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Location = new Point(912, 39);
-            label2.Name = "label2";
-            label2.Size = new Size(47, 15);
-            label2.TabIndex = 7;
-            label2.Text = "imagen";
             // 
             // Proveedores
             // 
