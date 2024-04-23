@@ -49,11 +49,11 @@ namespace POS
             txt_guardar = new Button();
             txt_eliminar = new Button();
             txt_actualizar = new Button();
- richard
+ 
             label6 = new Label();
 
             rHToolStripMenuItem = new ToolStripMenuItem();
- main
+ 
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -174,14 +174,14 @@ namespace POS
             // proovedoresToolStripMenuItem
             // 
             proovedoresToolStripMenuItem.Name = "proovedoresToolStripMenuItem";
- richard
+ 
             proovedoresToolStripMenuItem.Size = new Size(85, 20);
             proovedoresToolStripMenuItem.Text = "Proovedores";
 
             proovedoresToolStripMenuItem.Size = new Size(105, 24);
             proovedoresToolStripMenuItem.Text = "Proveedores";
             proovedoresToolStripMenuItem.Click += proovedoresToolStripMenuItem_Click;
- main
+ 
             // 
             // inventarioToolStripMenuItem
             // 
@@ -198,23 +198,23 @@ namespace POS
             // usuariosToolStripMenuItem
             // 
             usuariosToolStripMenuItem.Name = "usuariosToolStripMenuItem";
- richard
+ 
             usuariosToolStripMenuItem.Size = new Size(64, 20);
 
             usuariosToolStripMenuItem.Size = new Size(79, 24);
- main
+ 
             usuariosToolStripMenuItem.Text = "Usuarios";
             // 
             // clientesToolStripMenuItem
             // 
- richard
+
             clientesToolStripMenuItem.Name = "clientesToolStripMenuItem";
             clientesToolStripMenuItem.Size = new Size(61, 20);
 
             clientesToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { rHToolStripMenuItem });
             clientesToolStripMenuItem.Name = "clientesToolStripMenuItem";
             clientesToolStripMenuItem.Size = new Size(75, 24);
- main
+ 
             clientesToolStripMenuItem.Text = "Clientes";
             // 
             // txt_guardar
@@ -249,7 +249,7 @@ namespace POS
             txt_actualizar.Text = "Actualizar";
             txt_actualizar.UseVisualStyleBackColor = true;
             // 
- richard
+ 
             // label6
             // 
             label6.AutoSize = true;
@@ -264,7 +264,7 @@ namespace POS
             rHToolStripMenuItem.Name = "rHToolStripMenuItem";
             rHToolStripMenuItem.Size = new Size(224, 26);
             rHToolStripMenuItem.Text = "RH";
- main
+
             // 
             // frmConfiguraciones
             // 
@@ -322,10 +322,10 @@ namespace POS
         private ToolStripMenuItem inicioToolStripMenuItem;
         private ToolStripMenuItem usuariosToolStripMenuItem;
         private ToolStripMenuItem clientesToolStripMenuItem;
- richard
+ 
         private Label label6;
 
         private ToolStripMenuItem rHToolStripMenuItem;
- main
+ 
     }
 }
