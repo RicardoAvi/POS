@@ -35,20 +35,27 @@
             btn_alnacen = new Button();
             btn_perfil = new Button();
             panelLogo = new Panel();
-            lbl_titulo = new Label();
             panelTitulo = new Panel();
             lbl_Inicio = new Label();
             pictureBox1 = new PictureBox();
             label1 = new Label();
+            btn_cerrar = new Button();
+            label2 = new Label();
+            label3 = new Label();
+            pictureBox2 = new PictureBox();
+            button1 = new Button();
+            panel1 = new Panel();
             panelMenu.SuspendLayout();
             panelLogo.SuspendLayout();
             panelTitulo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
             // 
             // panelMenu
             // 
             panelMenu.BackColor = Color.Teal;
+            panelMenu.Controls.Add(button1);
             panelMenu.Controls.Add(btn_ajuste);
             panelMenu.Controls.Add(btn_configuracion);
             panelMenu.Controls.Add(btn_orden);
@@ -75,6 +82,17 @@
             // 
             // btn_configuracion
             // 
+ richard
+            btn_notificacion.Dock = DockStyle.Top;
+            btn_notificacion.FlatStyle = FlatStyle.Flat;
+            btn_notificacion.ForeColor = Color.White;
+            btn_notificacion.Location = new Point(0, 263);
+            btn_notificacion.Name = "btn_notificacion";
+            btn_notificacion.Size = new Size(220, 60);
+            btn_notificacion.TabIndex = 4;
+            btn_notificacion.Text = "Configuracion";
+            btn_notificacion.UseVisualStyleBackColor = true;
+
             btn_configuracion.Dock = DockStyle.Top;
             btn_configuracion.FlatStyle = FlatStyle.Flat;
             btn_configuracion.ForeColor = Color.White;
@@ -84,6 +102,7 @@
             btn_configuracion.TabIndex = 4;
             btn_configuracion.Text = "Configuracion";
             btn_configuracion.UseVisualStyleBackColor = true;
+ main
             // 
             // btn_orden
             // 
@@ -94,7 +113,7 @@
             btn_orden.Name = "btn_orden";
             btn_orden.Size = new Size(220, 60);
             btn_orden.TabIndex = 3;
-            btn_orden.Text = "Orden";
+            btn_orden.Text = "Ventas";
             btn_orden.UseVisualStyleBackColor = true;
             // 
             // btn_alnacen
@@ -106,7 +125,7 @@
             btn_alnacen.Name = "btn_alnacen";
             btn_alnacen.Size = new Size(220, 60);
             btn_alnacen.TabIndex = 2;
-            btn_alnacen.Text = "Almacén";
+            btn_alnacen.Text = "Productos";
             btn_alnacen.UseVisualStyleBackColor = true;
             btn_alnacen.Click += button1_Click_1;
             // 
@@ -125,26 +144,19 @@
             // panelLogo
             // 
             panelLogo.BackColor = Color.FromArgb(0, 64, 64);
-            panelLogo.Controls.Add(lbl_titulo);
+            panelLogo.Controls.Add(pictureBox2);
             panelLogo.Dock = DockStyle.Top;
             panelLogo.Location = new Point(0, 0);
             panelLogo.Name = "panelLogo";
             panelLogo.Size = new Size(220, 83);
             panelLogo.TabIndex = 1;
             // 
-            // lbl_titulo
-            // 
-            lbl_titulo.AutoSize = true;
-            lbl_titulo.Font = new Font("Segoe UI Black", 18F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            lbl_titulo.Location = new Point(3, 22);
-            lbl_titulo.Name = "lbl_titulo";
-            lbl_titulo.Size = new Size(219, 32);
-            lbl_titulo.TabIndex = 2;
-            lbl_titulo.Text = "HUMBLE clothing";
-            // 
             // panelTitulo
             // 
             panelTitulo.BackColor = Color.FromArgb(64, 64, 64);
+            panelTitulo.Controls.Add(label3);
+            panelTitulo.Controls.Add(label2);
+            panelTitulo.Controls.Add(btn_cerrar);
             panelTitulo.Controls.Add(lbl_Inicio);
             panelTitulo.Dock = DockStyle.Top;
             panelTitulo.Location = new Point(220, 0);
@@ -155,13 +167,13 @@
             // lbl_Inicio
             // 
             lbl_Inicio.AutoSize = true;
-            lbl_Inicio.BackColor = Color.White;
+            lbl_Inicio.BackColor = Color.SteelBlue;
             lbl_Inicio.Font = new Font("Sitka Banner", 33.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lbl_Inicio.Location = new Point(27, 9);
+            lbl_Inicio.Location = new Point(46, 9);
             lbl_Inicio.Name = "lbl_Inicio";
-            lbl_Inicio.Size = new Size(714, 65);
+            lbl_Inicio.Size = new Size(176, 65);
             lbl_Inicio.TabIndex = 0;
-            lbl_Inicio.Text = "--------------------INICIO--------------------";
+            lbl_Inicio.Text = "Mclaren";
             lbl_Inicio.TextAlign = ContentAlignment.TopCenter;
             lbl_Inicio.Click += lbl_Titulo_Click;
             // 
@@ -176,11 +188,66 @@
             // label1
             // 
             label1.AutoSize = true;
+            label1.BackColor = SystemColors.ActiveCaption;
             label1.Location = new Point(543, 286);
             label1.Name = "label1";
             label1.Size = new Size(108, 15);
             label1.TabIndex = 3;
             label1.Text = "//Logo de Tienda//";
+            // 
+            // btn_cerrar
+            // 
+            btn_cerrar.Location = new Point(673, 12);
+            btn_cerrar.Name = "btn_cerrar";
+            btn_cerrar.Size = new Size(79, 42);
+            btn_cerrar.TabIndex = 1;
+            btn_cerrar.Text = " Cerrar ";
+            btn_cerrar.UseVisualStyleBackColor = true;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.ForeColor = SystemColors.ButtonHighlight;
+            label2.Location = new Point(494, 12);
+            label2.Name = "label2";
+            label2.Size = new Size(56, 15);
+            label2.TabIndex = 2;
+            label2.Text = "USUARIO";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.ForeColor = SystemColors.ButtonFace;
+            label3.Location = new Point(494, 59);
+            label3.Name = "label3";
+            label3.Size = new Size(101, 15);
+            label3.TabIndex = 3;
+            label3.Text = "TIPO DE USUARIO";
+            // 
+            // pictureBox2
+            // 
+            pictureBox2.Location = new Point(0, 3);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(220, 80);
+            pictureBox2.TabIndex = 0;
+            pictureBox2.TabStop = false;
+            // 
+            // button1
+            // 
+            button1.Location = new Point(41, 421);
+            button1.Name = "button1";
+            button1.Size = new Size(121, 56);
+            button1.TabIndex = 6;
+            button1.Text = "Cerrar Sesion 1";
+            button1.UseVisualStyleBackColor = true;
+            // 
+            // panel1
+            // 
+            panel1.BackColor = SystemColors.WindowFrame;
+            panel1.Location = new Point(217, 481);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(767, 80);
+            panel1.TabIndex = 4;
             // 
             // Menu_Principal
             // 
@@ -188,6 +255,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             AutoSize = true;
             ClientSize = new Size(984, 561);
+            Controls.Add(panel1);
             Controls.Add(label1);
             Controls.Add(pictureBox1);
             Controls.Add(panelTitulo);
@@ -197,10 +265,10 @@
             Load += Menu_Principal_Load;
             panelMenu.ResumeLayout(false);
             panelLogo.ResumeLayout(false);
-            panelLogo.PerformLayout();
             panelTitulo.ResumeLayout(false);
             panelTitulo.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -216,8 +284,13 @@
         private Button btn_alnacen;
         private Panel panelTitulo;
         private Label lbl_Inicio;
-        private Label lbl_titulo;
         private PictureBox pictureBox1;
         private Label label1;
+        private Button btn_cerrar;
+        private Button button1;
+        private PictureBox pictureBox2;
+        private Label label3;
+        private Label label2;
+        private Panel panel1;
     }
 }
