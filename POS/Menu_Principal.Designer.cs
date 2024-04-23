@@ -30,7 +30,7 @@
         {
             panelMenu = new Panel();
             btn_ajuste = new Button();
-            btn_notificacion = new Button();
+            btn_configuracion = new Button();
             btn_orden = new Button();
             btn_alnacen = new Button();
             btn_perfil = new Button();
@@ -57,7 +57,7 @@
             panelMenu.BackColor = Color.Teal;
             panelMenu.Controls.Add(button1);
             panelMenu.Controls.Add(btn_ajuste);
-            panelMenu.Controls.Add(btn_notificacion);
+            panelMenu.Controls.Add(btn_configuracion);
             panelMenu.Controls.Add(btn_orden);
             panelMenu.Controls.Add(btn_alnacen);
             panelMenu.Controls.Add(btn_perfil);
@@ -80,8 +80,9 @@
             btn_ajuste.Text = "Ajustes";
             btn_ajuste.UseVisualStyleBackColor = true;
             // 
-            // btn_notificacion
+            // btn_configuracion
             // 
+ richard
             btn_notificacion.Dock = DockStyle.Top;
             btn_notificacion.FlatStyle = FlatStyle.Flat;
             btn_notificacion.ForeColor = Color.White;
@@ -91,6 +92,17 @@
             btn_notificacion.TabIndex = 4;
             btn_notificacion.Text = "Configuracion";
             btn_notificacion.UseVisualStyleBackColor = true;
+
+            btn_configuracion.Dock = DockStyle.Top;
+            btn_configuracion.FlatStyle = FlatStyle.Flat;
+            btn_configuracion.ForeColor = Color.White;
+            btn_configuracion.Location = new Point(0, 263);
+            btn_configuracion.Name = "btn_configuracion";
+            btn_configuracion.Size = new Size(220, 60);
+            btn_configuracion.TabIndex = 4;
+            btn_configuracion.Text = "Configuracion";
+            btn_configuracion.UseVisualStyleBackColor = true;
+ main
             // 
             // btn_orden
             // 
@@ -267,7 +279,7 @@
         private Button btn_perfil;
         private Panel panelLogo;
         private Button btn_ajuste;
-        private Button btn_notificacion;
+        private Button btn_configuracion;
         private Button btn_orden;
         private Button btn_alnacen;
         private Panel panelTitulo;

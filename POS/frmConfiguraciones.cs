@@ -31,5 +31,10 @@ namespace POS
         {
 
         }
+
+        private void proovedoresToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
