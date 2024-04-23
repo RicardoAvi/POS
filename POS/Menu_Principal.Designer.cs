@@ -82,16 +82,8 @@
             // 
             // btn_configuracion
             // 
- richard
-            btn_notificacion.Dock = DockStyle.Top;
-            btn_notificacion.FlatStyle = FlatStyle.Flat;
-            btn_notificacion.ForeColor = Color.White;
-            btn_notificacion.Location = new Point(0, 263);
-            btn_notificacion.Name = "btn_notificacion";
-            btn_notificacion.Size = new Size(220, 60);
-            btn_notificacion.TabIndex = 4;
-            btn_notificacion.Text = "Configuracion";
-            btn_notificacion.UseVisualStyleBackColor = true;
+ 
+
 
             btn_configuracion.Dock = DockStyle.Top;
             btn_configuracion.FlatStyle = FlatStyle.Flat;
@@ -102,7 +94,7 @@
             btn_configuracion.TabIndex = 4;
             btn_configuracion.Text = "Configuracion";
             btn_configuracion.UseVisualStyleBackColor = true;
- main
+
             // 
             // btn_orden
             // 
