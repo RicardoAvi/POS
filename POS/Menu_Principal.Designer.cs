@@ -222,11 +222,11 @@
             // 
             // button1
             // 
-            button1.Location = new Point(46, 408);
+            button1.Location = new Point(41, 421);
             button1.Name = "button1";
             button1.Size = new Size(121, 56);
             button1.TabIndex = 6;
-            button1.Text = "Cerrar Sesion";
+            button1.Text = "Cerrar Sesion 1";
             button1.UseVisualStyleBackColor = true;
             // 
             // panel1
